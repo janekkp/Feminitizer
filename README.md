@@ -2,7 +2,7 @@
 Deep Learning model that produces feminative of given word.
 #
 
-In polish many words have few genders e.g. professions or nationalities. I've tried to build a model that can create a female derivative of a given word (not only profesion or nationality, but any word). Model was trained and evaluated only on suffix derivatives (e.g. lekarz - lekarka), which contribute about 75% of all feminatives in polish (others are e.g. paradigmatic : ojciec - matka). However keeping in mind comlexity of polish language the results are quite good (~ 85% accuracy on test set).
+In polish many words have few genders e.g. professions or nationalities, however feminatives (female forms) are often disregarded and male form is used even while talking about women. Many polish have difficulties increating female form and consider them funny or weird. I've tried to build a model that can create a female derivative of a given word (not only profesion or nationality, but any word). Model was trained and evaluated only on suffix derivatives (e.g. lekarz - lekarka), which contribute about 75% of all feminatives in polish (others are e.g. paradigmatic : ojciec - matka). However keeping in mind comlexity of polish language the results are quite good (~ 85% accuracy on test set).
 
 # Development
 
